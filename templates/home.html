@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabete progression</title>
+</head>
+
+
+
+<body>
+    <h1>Diabete progression</h1>
+    <form action="/predict" method="post">
+        <input type="text" name="age" placeholder="age" required><br>
+        <input type="text" name="bmi" placeholder="bmi" required><br>
+        <input type="text" name="bp" placeholder="bp" required><br>
+        <input type="text" name="s1" placeholder="s1" required><br>
+        <input type="text" name="s2" placeholder="s2" required><br>
+        <input type="text" name="s3" placeholder="s3" required><br>
+        <input type="text" name="s4" placeholder="s4" required><br>
+        <input type="text" name="s5" placeholder="s5" required><br>
+        <input type="text" name="s6" placeholder="s6" required><br>
+       
+        <button type="submit">Predict</button>
+    </form>
+
+    <br>
+    <br>
+
+</div>
+{{prediction_text}}
+
+</body>
+</html>
